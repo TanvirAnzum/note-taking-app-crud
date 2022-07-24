@@ -2,4 +2,85 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+#root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f1f2f6;
+}
+
+.App {
+  width: min(40em, 90%);
+}
+
+.Form {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  width: 100%;
+  background-color: white;
+}
+.Form button {
+  width: 25%;
+  font-size: 1em;
+  height: 2em;
+  cursor: pointer;
+  background-color: #27ae60;
+  color: aliceblue;
+  border: none;
+  border-radius: 0.2em;
+}
+.Form input {
+  width: 75%;
+  height: 2em;
+  font-size: 1em;
+  padding-left: 0.5em;
+  outline: none;
+  border-radius: 0.2em;
+  border: 1px solid #b2bec3;
+}
+
+.List {
+  min-height: 10em;
+}
+.List h1 {
+  text-align: center;
+  margin-bottom: 1em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #2c3a47;
+}
+.List ul {
+  list-style-type: none;
+}
+.List li {
+  padding-left: 0.5em;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.List li p {
+  display: inline-block;
+  width: 75%;
+  font-size: 1em;
+  line-height: 2em;
+}
+.List li button {
+  width: 12%;
+  font-size: 1em;
+  height: 2em;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.2em;
+}
+.List li .red {
+  background-color: #ff4757;
+}
+.List li .violet {
+  background-color: #9b59b6;
 }/*# sourceMappingURL=global.css.map */
